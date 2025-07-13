@@ -1,139 +1,56 @@
-# 🧩 Django Basic Boilerplate
+# 🌳 Tree — Your Digital Identity. Simplified.
 
-A clean and minimal Django boilerplate to kickstart new projects — now with Tailwind CSS integration and a structured setup for settings, apps, templates, and static files.
+**Tree** is a minimalist, open-source platform that helps you organise and share all your social media handles and contact links through a single, beautiful page.
+
+Whether you're a developer, creator, freelancer, or entrepreneur, Tree makes it easy to showcase your entire online presence with just one link.
 
 ---
 
 ## 🚀 Features
 
-- Modular Django settings
-- Pre-configured app layout
-- Tailwind CSS via `django-tailwind`
-- Structured templates and static directories
-- Environment variable support via `.env`
-- Ready-to-scale project architecture
+- 🧩 Add multiple social and contact links  
+- 🎨 Clean, responsive UI for all devices  
+- 🔗 Share a single personalized link  
+- 🛠️ Easy to set up and customize  
+- 💬 Open for feature requests and improvements
 
 ---
 
-## 🖌️ Styling & Frontend
+## 🛣️ Use Cases
 
-- Integrated [Django-Tailwind](https://django-tailwind.readthedocs.io/en/latest/) for utility-first CSS styling.
-- Hot-reload support for Tailwind during development.
-- Custom static directory setup for additional CSS, JS, and image assets.
-
----
-
-## 📁 Project Structure
-
-```
-Project
-├── LICENSE
-├── manage.py
-├── project
-│   ├── app/
-│   ├── Django-Boilerplate/  # Tailwind app
-│   ├── static/              # Static files (e.g., CSS, JS)
-│   ├── templates/           # HTML templates
-│   ├── db.sqlite3
-│   └── project/
-│       ├── settings.py
-│       ├── urls.py
-│       ├── wsgi.py
-│       └── ...
-├── requirements.txt
-├── tailwind.config.js
-├── postcss.config.js
-├── .env
-└── README.md
-```
+- Link in bio for Instagram, Twitter, etc.
+- Personal branding / digital business cards
+- Freelancers, creators, developers, and influencers
 
 ---
 
-## ⚙️ Getting Started
+## 📦 Tech Stack
 
-### 1. Clone the Repository
+> _Initial version stack:_
 
-```bash
-git clone https://github.com/kushalyadav0/Django-Boilerplate.git
-cd Django-Boilerplate
-```
-
-### 2. Set Up Virtual Environment
-
-```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-```
-
-### 3. Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Setup `.env`
-
-Create a `.env` file:
-
-```env
-SECRET_KEY=your-django-secret-key
-DEBUG=True
-```
-
-### 5. Run Migrations
-
-```bash
-python manage.py migrate
-```
-
-### 6. Tailwind Setup
-
-Install Tailwind dependencies inside the Tailwind app directory:
-
-```bash
-python manage.py tailwind install
-```
-
-Run Tailwind in dev mode (with hot reload):
-
-```bash
-python manage.py tailwind start
-```
-
-### 7. Start Development Server
-
-In a **separate terminal**, run:
-
-```bash
-python manage.py runserver
-```
-
-Visit: http://127.0.0.1:8000
+- **Frontend:** HTML, CSS, JavaScript, Tailwind CSS
+- **Backend (Planned):** Django 
+- **Deployment:** Thinking... 
 
 ---
 
-## 🧪 Testing Tailwind
+## 🧠 Roadmap (Planned Features)
 
-Make sure your template extends `base.html` and uses Tailwind classes. Example:
-
-```html
-<h1 class="text-3xl font-bold text-blue-600">Hello, Tailwind!</h1>
-```
-
----
-
-## 🔐 Environment Variables
-
-Use the `.env` file to store secrets and configuration:
-
-```env
-SECRET_KEY=...
-DEBUG=True
-DATABASE_URL=...
-```
+- [ ] Custom themes and dark mode  
+- [ ] Analytics (link clicks, visits)  
+- [ ] QR code generator  
+- [ ] Drag-and-drop UI editor  
+- [ ] User authentication and dashboard
 
 ---
 
-## 🪪 License
+## 🧑‍💻 Getting Started
 
-This project is licensed under the [MIT License](LICENSE).
+1. Fork the repository  
+2. Clone it to your local machine  
+3. Start editing `index.html` and `style.css`  
+4. Add your links manually (or connect to a backend for dynamic data)
+
+```bash
+git clone https://github.com/kushalyadav0/Tree.git
+cd tree
